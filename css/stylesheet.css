@@ -1,0 +1,86 @@
+head{
+    background-color: darkblue;
+}
+
+body{
+    background-color: rgb(16, 12, 43);
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+    
+}
+
+
+
+nav{
+    background-color: rgb(16, 12, 30);
+    position: relative;
+    width: 100%;
+}
+
+nav li{
+    font-size: larger;
+    border: rgb(14, 13, 13);
+    align-items: center;
+    font-family: Franklin Gothic Medium;
+    color: blue;
+    padding:12px 2px;
+    margin: 10px;
+    border: 2px solid rgb(8, 11, 19);
+
+}
+
+img{
+    width: 600px;
+    height: 600px;
+    align-content: center;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+video{
+    height: 600px;
+    width: 600px;
+}
+
+p{
+    font-size: large;
+    font-variant: normal;
+    font-weight: 200;
+    font-style: normal;
+}
+
+a:visited{
+    color: rgb(207, 72, 48);
+}
+
+a{
+    color: blue;
+}
+
+ul{
+    color: rgb(18, 161, 37);
+}
+
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h2{
+    color: rgb(10, 10, 10);
+}
+
+h1{
+    font-size: xxx-large;
+    
+}
+footer{
+    border:10px solid rgb(20, 17, 22);
+    display: block;
+    background-color: rgb(43, 28, 43);
+}
+ol li{
+    font-size: x-large;
+    border: 1px groove black
+}
