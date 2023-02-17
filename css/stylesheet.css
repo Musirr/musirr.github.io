@@ -12,8 +12,9 @@ body{
 
 
 nav{
-    background-color: rgb(16, 12, 30);
-    position: relative;
+    background-color: silver;
+    position: fixed;
+    top: 0%;
     width: 100%;
 }
 
@@ -26,6 +27,7 @@ nav li{
     padding:12px 2px;
     margin: 10px;
     border: 2px solid rgb(8, 11, 19);
+    display: inline-block;
 
 }
 
@@ -40,6 +42,7 @@ img{
 video{
     height: 600px;
     width: 600px;
+    background-color: gray;
 }
 
 p{
@@ -53,12 +56,17 @@ a:visited{
     color: rgb(207, 72, 48);
 }
 
+nav a:visited{
+    color: blue ;
+}
+
 a{
     color: blue;
 }
 
 ul{
     color: rgb(18, 161, 37);
+
 }
 
 
@@ -67,20 +75,32 @@ p{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 h1,h2{
     color: rgb(10, 10, 10);
 }
 
 h1{
     font-size: xxx-large;
+    margin-top: 125px;
     
 }
+
+h2{
+    margin: 20px;
+}
+
 footer{
     border:10px solid rgb(20, 17, 22);
     display: block;
     background-color: rgb(43, 28, 43);
+    bottom: 0%;
 }
 ol li{
     font-size: x-large;
-    border: 1px groove black
+    border: 1px groove black;
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
 }

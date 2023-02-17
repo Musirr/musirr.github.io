@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+}
+
+nav{
+    background-color: silver;
+    position:fixed;
+    top: 0%;
+    width: 100%;
+    
+    
+
+}
+
+.navigation{
+    top: 0%;
+    padding: 10px 10px;
+    width: 25%;
+    border: 2px solid black;
+    display:inline-block;
+    font-size: larger;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    top: 50px;
+   
+}
+
+form{
+    margin:20px;
+}
+.input{
+    height: 30px;
+    width: 160px;
+    
+
+
+}
+
+button{
+    height:30px;
+    width: 110px;
+}

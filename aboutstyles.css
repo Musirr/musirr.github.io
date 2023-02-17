@@ -1,5 +1,39 @@
 body{
-    box-sizing: border-box;
+   /* height */
     background-image: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+    font-family: Times New Roman;
+    text-align: center;
+    
 }
 
+ul{
+    background-color: silver;
+    width: 100%;
+    position:fixed;
+    top: 0px;
+}
+
+.menu{
+   
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    font-family: Franklin Gothic Medium;
+    color: blue;
+    padding:10px 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+
+    
+
+}
+
+img{
+    width: 320px;
+    height: 360px;
+    padding: 10px;
+    margin: 100px;
+
+}
